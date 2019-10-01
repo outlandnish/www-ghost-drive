@@ -1,0 +1,71 @@
+body {
+  height: 100vh;
+  background-image: url('../images/ghost-drive-bg.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 750px) {
+  body {
+    background-position-x: 400px;
+    background-position-y: -200px;
+  }
+}
+
+#content {
+  padding: 4em;
+}
+
+h1 {
+  font-family: 'futura-pt-condensed', sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 60pt;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-family: 'futura-pt-condensed', sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.event {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.event-name {
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18pt;
+}
+
+.event-date {
+  font-family: futura-pt, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14pt;
+  text-transform: uppercase
+}
+
+input[type=button] {
+  font-family: 'futura-pt-condensed', sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 14pt;
+  background-color: black;
+  color: white;
+}
+
+input[type=button]:hover,
+input[type=button]:active,
+input[type=button]:focus {
+  color: white;
+}
+
+.demo-video {
+  width: 640px;
+  height: 480px;
+}
